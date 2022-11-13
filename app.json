@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "race-tracker",
+    "slug": "race-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B1A7A6"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B1A7A6"
+      },
+      "package": "com.izirae.racetracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c0ae0e73-59d8-4c88-a603-525d9c6009f5"
+      }
+    }
+  }
+}
