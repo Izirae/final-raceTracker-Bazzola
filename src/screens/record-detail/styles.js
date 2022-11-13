@@ -36,7 +36,6 @@ export const styles = StyleSheet.create({
     shadowRadius: 8,
     elevation: 5,
     borderRadius: 10,
-    marginLeft: "8%"
   },
   addressContainer: {
     padding: 20,
